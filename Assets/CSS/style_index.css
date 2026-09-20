@@ -13,14 +13,12 @@ html {
     max-width: 100%;
 }
 
-
 h1 {
     color: lightgrey;
     margin-right: 100px;
     white-space: nowrap;
 
 }
-
 .photodeprofil:hover {
     transform: scale(1.01);
 }
@@ -54,7 +52,7 @@ h1 {
 
 .aa:hover {
     color: orangered;
-    backdrop-filter: orangered;
+    border-bottom: 3px solid orangered;
 }
 
 .sous-titres {
