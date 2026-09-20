@@ -167,8 +167,12 @@ h1 {
     padding: 20px;
 }
 
-.socialnetworklayout > article > p {
-    color: orangered;
+.socialnetworklayout article h3 {
+    color: darkgreen;
+}
+
+.socialnetworklayout article p {
+    color: black;
 }
 
 footer {
