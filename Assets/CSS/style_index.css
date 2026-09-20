@@ -1,5 +1,5 @@
 body {
-    padding: 0 0.05rem;
+    padding: 0 2rem;
     font-family: "noto serif", sans-serif;
     background-image: url('images/background-modified.jpg');
     background-repeat: no-repeat;
@@ -187,7 +187,6 @@ a {
     margin-left: 385px;
     width: fit-content;
     background-color: whitesmoke;
-    border: 5px solid lightgrey;
     border-radius: 5px;
     border-collapse: collapse;
 }
@@ -197,8 +196,12 @@ a {
 }
 
 .tabcoordonnees th p {
-    color: green;
-    text-shadow: 0.02rem 0.02rem black;
+    color: mediumblue;
+    text-shadow: 0.01rem 0.01rem black;
+}
+
+.tabcoordonnees th .infos {
+    color: black;
 }
 
 footer {
