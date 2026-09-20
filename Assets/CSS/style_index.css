@@ -1,5 +1,5 @@
 body {
-    padding: 0 0.02rem;
+    padding: 0 0.05rem;
     font-family: "noto serif", sans-serif;
     background-image: url('images/background-modified.jpg');
     background-repeat: no-repeat;
@@ -19,6 +19,7 @@ h1 {
     white-space: nowrap;
 
 }
+
 .photodeprofil:hover {
     transform: scale(1.01);
 }
@@ -144,6 +145,30 @@ h1 {
 
 .beautifulgrid > article:hover {
     transform: scale(1.07);
+}
+
+.phrasedecontact {
+    font-size: 20px;
+    white-space: initial;
+    color: lightgreen;
+    text-shadow: 2px 2px black;
+}
+
+.socialnetworklayout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.socialnetworklayout > article {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.socialnetworklayout > article > p {
+    color: orangered;
 }
 
 footer {
