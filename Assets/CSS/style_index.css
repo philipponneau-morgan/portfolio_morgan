@@ -134,7 +134,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     gap: 30px;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
 }
 
 .beautifulgrid > article {
@@ -204,9 +204,18 @@ a {
     color: black;
 }
 
-footer {
-    font-size: 20px;
-    text-align: center;
-    color: lightgrey;
-    text-shadow: 2px 2px black;
+.formblocinfooter {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 0;
+}
+
+.formblocinfooter > article {
+    flex: 1;
+    padding: 30px;
+    height: 34rem;
 }
