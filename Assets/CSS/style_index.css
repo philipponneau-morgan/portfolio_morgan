@@ -20,6 +20,11 @@ h1 {
 
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .photodeprofil:hover {
     transform: scale(1.01);
 }
@@ -176,6 +181,24 @@ h1 {
 
 .socialnetworklayout article p {
     color: black;
+}
+
+.tabcoordonnees table {
+    margin-left: 385px;
+    width: fit-content;
+    background-color: whitesmoke;
+    border: 5px solid lightgrey;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+.tabcoordonnees th {
+    padding: 10px;
+}
+
+.tabcoordonnees th p {
+    color: green;
+    text-shadow: 0.02rem 0.02rem black;
 }
 
 footer {
