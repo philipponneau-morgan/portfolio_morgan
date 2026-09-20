@@ -152,19 +152,22 @@ h1 {
     white-space: initial;
     color: lightgreen;
     text-shadow: 2px 2px black;
+    padding: 10px;
 }
 
 .socialnetworklayout {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     gap: 20px;
 }
 
 .socialnetworklayout > article {
+    flex: 1;
     background-color: white;
     border-radius: 5px;
+    justify-content: space-between;
     padding: 20px;
+    min-width: 0;
 }
 
 .socialnetworklayout article h3 {
