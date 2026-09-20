@@ -241,5 +241,25 @@ footer {
 }
 
 .copyrightmorgan {
-    color: mediumspringgreen;
+    color: black;
+    font-weight: bold;
+}
+
+
+.newslettersection {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+    min-width: 0;
+}
+
+.newslettersection article {
+    color: #017001;
+    padding: 15px;
+    flex: 1;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: white;
 }
