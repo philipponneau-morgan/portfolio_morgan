@@ -1,4 +1,5 @@
 body {
+    cursor: url('../../curseur_noir.svg'), auto;
     padding: 0 2rem;
     font-family: "noto serif", sans-serif;
     background-image: url('images/background-modified.jpg');
@@ -184,7 +185,7 @@ a {
 }
 
 .tabcoordonnees table {
-    margin-left: 385px;
+    margin-left: 349px;
     width: fit-content;
     background-color: whitesmoke;
     border-radius: 5px;
@@ -204,8 +205,12 @@ a {
     color: black;
 }
 
+footer {
+
+}
+
 .formblocinfooter {
-    background-color: #e2e0e0;
+    background-color: #e4e1e1;
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -219,4 +224,22 @@ a {
     padding: 30px;
     height: 34rem;
     border-right: 8px solid black;
+}
+
+
+.formblocinfooter article a:hover {
+
+}
+
+.formblocinfooter article a {
+    color: white;
+    margin-left: 120px;
+    padding: 10px;
+    border: 3px solid green;
+    background-color: green;
+    border-radius: 25px;
+}
+
+.copyrightmorgan {
+    color: mediumspringgreen;
 }
