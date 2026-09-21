@@ -156,7 +156,7 @@ a {
 .phrasedecontact {
     font-size: 20px;
     white-space: initial;
-    color: lightgreen;
+    color: white;
     text-shadow: 2px 2px black;
     padding: 10px;
 }
@@ -245,21 +245,108 @@ footer {
     font-weight: bold;
 }
 
+@media screen and (max-width: 480px) and (orientation: portrait) {
 
-.newslettersection {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    justify-content: space-between;
-    min-width: 0;
-}
+    body {
+        padding: 0.1rem;
+    }
+    .titreetnavbar {
+        color: lightgrey;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        align-items: center;
+    }
 
-.newslettersection article {
-    color: #017001;
-    padding: 15px;
-    flex: 1;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-between;
-    background-color: white;
+    h1 {
+        color: lightgrey;
+        margin-right: 10px;
+        white-space: nowrap;
+
+    }
+
+    .aboutmeandotherrubrique {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .locmap {
+        flex-direction: column;
+        gap: 2px;
+        width: 10%;
+    }
+
+    .locmap iframe {
+        margin-left: 35px;
+        width: 300px;
+    }
+
+    .locmap > article {
+        color: lightgrey;
+        flex: 1;
+        text-shadow: 2px 2px black;
+        margin-left: 35px;
+        padding: 10px;
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .main_layout {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+
+    .beautifulgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        max-width: 480px;
+        gap: 10px;
+        backdrop-filter: blur(3px);
+    }
+
+    .socialnetworklayout {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .socialnetworklayout > article {
+        margin-left: 60px;
+        height: 180px;
+        width: 200px;
+    }
+
+    /* On annule le décalage de 349px sur mobile */
+    .tabcoordonnees table {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%; /* Le tableau prendra la largeur de l'écran disponible */
+    }
+
+    /* Optionnel mais fortement recommandé pour éviter que le texte ne se superpose */
+    .tabcoordonnees th,
+    .tabcoordonnees td {
+        padding: 8px 4px; /* Un peu moins de padding sur mobile */
+        word-break: break-word; /* Force le texte à aller à la ligne proprement */
+    }
+
+    .formblocinfooter {
+        background-color: #e4e1e1;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 0;
+        width: 500px;
+    }
+
+
 }
