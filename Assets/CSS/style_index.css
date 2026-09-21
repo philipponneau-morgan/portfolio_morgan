@@ -97,6 +97,10 @@ a {
     justify-content: space-between;
 }
 
+.locmap iframe {
+    height: 350px;
+}
+
 .locmap > article {
     color: lightgrey;
     flex: 1;
@@ -246,9 +250,8 @@ footer {
 }
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
-
     body {
-        padding: 0.1rem;
+        padding: 0.05rem;
     }
     .titreetnavbar {
         color: lightgrey;
@@ -340,12 +343,22 @@ footer {
     .formblocinfooter {
         background-color: #e4e1e1;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 50px;
         align-items: center;
         justify-content: space-between;
-        min-width: 0;
-        width: 500px;
+        width: 480px;
+        margin-right: 80px;
+
+    }
+
+    .formblocinfooter > article {
+        margin-right: 80px;
+    }
+
+    .formblocinfooter img {
+        width: 380px;
+        margin-right: 87px;
     }
 
 
